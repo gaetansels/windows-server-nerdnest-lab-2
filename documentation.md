@@ -23,6 +23,6 @@ After changing the DNS to the Domain Controller (`192.168.153.220`), the domain 
 
  Next, we are changing the name and adding the file server to the domain (same process lab-1) : 
 
-![something](images/win_lab3_p2.png)
+![something](images/win_lab2_p3.png)
 
 Name file server: FS1 
