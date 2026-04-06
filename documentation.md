@@ -12,3 +12,11 @@ This is done by adding a full clone to the lab of an already installed Windows s
 It can be a full clone because it is a fresh server before configurations, making it easier. 
 
 ![something](images/win_lab2_p1.png)
+
+With the following fixed IP (same process lab-1) : 
+
+![something](images/win_lab2_p2.png)
+
+ Next, we are changing the name and adding the file server to the domain (same process lab-1) : 
+
+![something](images/win_lab3_p2.png)
