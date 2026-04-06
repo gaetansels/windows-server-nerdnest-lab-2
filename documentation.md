@@ -17,12 +17,12 @@ With the following fixed IP (same process lab-1) :
 
 ![something](images/win_lab2_p2.png)
 
+Note: Due to an incorrect DNS configuration, I could not add the file server to the domain.
+The issue was identified by a successful `ping` but a failed `nslookup nerdnest.test` ("non-existent domain"). The DNS server was set to `192.168.153.254` (pfSense), which does not host the Active Directory DNS zone.
+After changing the DNS to the Domain Controller (`192.168.153.220`), the domain could be resolved and the server successfully joined the domain.
+
  Next, we are changing the name and adding the file server to the domain (same process lab-1) : 
 
 ![something](images/win_lab3_p2.png)
 
-Name File server : FS1 
-
-Note: Due to an incorrect DNS configuration, I could not add the file server to the domain.
-The issue was identified by a successful `ping` but a failed `nslookup nerdnest.test` ("non-existent domain"). The DNS server was set to `192.168.153.254` (pfSense), which does not host the Active Directory DNS zone.
-After changing the DNS to the Domain Controller (`192.168.153.220`), the domain could be resolved and the server successfully joined the domain.
+Name file server: FS1 
