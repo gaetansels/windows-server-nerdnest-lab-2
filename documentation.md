@@ -11,4 +11,4 @@ The first thing we are going to do is update the lab environment by adding a mem
 This is done by adding a full clone to the lab of an already installed Windows server in VMware. 
 It can be a full clone because it is a fresh server before configurations, making it easier. 
 
-![something]()
+![something](images/win_lab2_p1.png)
