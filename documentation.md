@@ -31,3 +31,6 @@ Name file server: FS1
 Next let's organise the computers in the DC into the OU we created in lab1 : 
 
 ![something](images/win_lab2_p4.png)
+
+## EXTRA HARD DRIVE 
+
