@@ -23,7 +23,6 @@ With the following fixed IP (same process lab-1) :
 
 Name File server : FS1 
 
-Note: Due to an incorrect DNS configuration, I could not add my file server to the domain.
-This mistake was identified by first testing connectivity using `ping`, which was successful, and then using the command `nslookup nerdnest.test`, which returned a "non-existent domain" error.
-Although the server could reach the Domain Controller by IP address, it could not resolve the domain name because the DNS server was incorrectly set to `192.168.153.254` (pfSense), which does not host the Active Directory DNS zone.
-After correcting the DNS server to point to the Domain Controller (`192.168.153.220`), the domain name could be resolved and the file server was successfully joined to the domain.
+Note: Due to an incorrect DNS configuration, I could not add the file server to the domain.
+The issue was identified by a successful `ping` but a failed `nslookup nerdnest.test` ("non-existent domain"). The DNS server was set to `192.168.153.254` (pfSense), which does not host the Active Directory DNS zone.
+After changing the DNS to the Domain Controller (`192.168.153.220`), the domain could be resolved and the server successfully joined the domain.
