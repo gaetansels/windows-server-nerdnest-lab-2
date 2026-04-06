@@ -45,6 +45,6 @@ windows + X --> Disk Management
 
 ![something](images/win_lab2_p5.png)
 
-
-
+Here you can see the 100GB which I created, next we will right click on the place that says "Disk 1 unknown 100,00 GB offline"
+After that, right-click on it again and click "Initialize Disk"
 
