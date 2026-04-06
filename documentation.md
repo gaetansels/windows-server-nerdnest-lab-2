@@ -28,9 +28,23 @@ After changing the DNS to the Domain Controller (`192.168.153.220`), the domain 
 Name file server: FS1 
 
 
-Next let's organise the computers in the DC into the OU we created in lab1 : 
+Next, let's organise the computers in the DC into the OU we created in lab1 : 
 
 ![something](images/win_lab2_p4.png)
 
 ## EXTRA HARD DRIVE 
+
+For best practices, an extra drive is used to separate shared data from the operating system, improving security and management.
+
+This is done in VMware by : 
+selecting your server --> RMK --> settings --> add --> select "hard disk" + next --> ... --> create a new disk --> here you give disk size etc and we will select "store virtual disk as a single file"
+
+Next, we will be initialising the  extra disk to make the drive recognizable and usable by Windows, as new or raw disks do not appear in File Explorer until this step is completed. 
+
+windows + X --> Disk Management 
+
+![something](images/win_lab2_p5.png)
+
+
+
 
