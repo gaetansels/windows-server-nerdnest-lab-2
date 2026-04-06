@@ -12,7 +12,7 @@ This lab adds a new virtual machine to the existing `gsNerdNest.test` domain env
 
 * **File Server:** Windows Server (Member Server)
     * **Static IP:** `192.168.153.221`
-    * **Domain:** `NerdNest.test`
+    * **Domain:** `nerdnest.test`   
 * **Storage:** 500GB secondary virtual disk (NTFS formatted) for departmental shares.
 
 ## Key Objectives
