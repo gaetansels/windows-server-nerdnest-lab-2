@@ -26,3 +26,8 @@ After changing the DNS to the Domain Controller (`192.168.153.220`), the domain 
 ![something](images/win_lab2_p3.png)
 
 Name file server: FS1 
+
+
+Next let's organise the computers in the DC into the OU we created in lab1 : 
+
+![something](images/win_lab2_p4.png)
