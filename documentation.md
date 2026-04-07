@@ -91,9 +91,9 @@ AGDLP : A → G → DL → P
 In this step, we create the user accounts in Active Directory and place them in the correct Organisational Units (OU) based on their department. 
 **The OU is used for structure and policies, not for assigning permissions.**
 
-Summary of "A" make accounts in DC "Users and computers" : 
-OU=Directie → Lowie
-OU=Boekhouding → Maud, Sile
+Summary of "A" make accounts in DC "Users and computers" :  
+OU=Directie → Lowie 
+OU=Boekhouding → Maud, Sile 
 OU=IT → Louise, Emma
 
 Accounts ; first lets start off by making sure the following acounts are in the OU's : 
