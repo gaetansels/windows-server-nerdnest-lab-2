@@ -86,7 +86,7 @@ Personal notes :
 In het labo : 
 AGDLP : A → G → DL → P
 
-##ACCOUNT
+## ACCOUNT
 
 In this step, we create the user accounts in Active Directory and place them in the correct Organisational Units (OU) based on their department. 
 **The OU is used for structure and policies, not for assigning permissions.**
@@ -107,5 +107,9 @@ The Accounts will be created for all the above-mentioned users in their OU.
  ![something](images/win_lab2_p10.png)
 
  
+## GLOBAL SECURITY GROUPS 
+
+
+
 
 ---
