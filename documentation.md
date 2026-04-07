@@ -75,5 +75,4 @@ AGDLP : Users → GG_* → DL_* → Permissions → Folder
 
 ![something](images/win_lab2_p9.png)
 
-continue .. 
-
+In het labo : 
