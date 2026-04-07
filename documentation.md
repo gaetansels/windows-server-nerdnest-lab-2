@@ -80,4 +80,16 @@ AGDLP : A → G → DL → P
 
 Accounts ; first lets start off by making sure the following acounts are in the OU's : 
 
-- Lowie De Neve
+- Lowie De Neve --> full access + personal OU --> will place this person in Directie 
+- Maud De Smedt --> boekhouding must be able to read and execute --> will place this person in boekhouden
+- Louise Jacobs --> IT must have full acccess  --> will place this person in IT 
+- Sile De Sutter --> asks for giving boekhouden access to operations --> will be in boekhouden 
+- Emma De Ridder --> full controle --> IT department
+
+ Summary of "A" make accounts in DC "Users and computers"
+ 
+ Lowie De Neve - Directie , Maud De Smedt - boekhouden , Louise Jacobs - IT ,  Sile De Sutter - boekhouden , Emma De Ridder - IT department
+
+
+ ![something](images/win_lab2_p10.png)
+
