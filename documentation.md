@@ -109,7 +109,7 @@ The Accounts will be created for all the above-mentioned users in their OU.
  
 ## GLOBAL SECURITY GROUPS 
 
-
+These will also be made in the DC server, the AD database is needed for part A and G because ...   
 
 
 ---
