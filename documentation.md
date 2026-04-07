@@ -62,7 +62,13 @@ During this process, we format the disk using NTFS, which is required for storin
 
 ## FILE STRUCTURE 
 
-t
+instructions : 
 
+"Voorzie een mappenstructuur op nieuwe nieuwe schijf van je file server.
+Welke mappen je voorziet, vraag je aan AI. Basseer je op het organogram van de onderneming.
+Stel de juiste permissions in. Belangrijk is dat je hiervoor het AGDLP -principe gebruikt.
+Hou ook rekening met opmerkingen van volgende collega’s" : 
 
+![something](images/win_lab2_p8.png)
 
+AGDLP : Users → GG_* → DL_* → Permissions → Folder
