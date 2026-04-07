@@ -75,8 +75,11 @@ AGDLP : Users → GG_* → DL_* → Permissions → Folder
 
 ![something](images/win_lab2_p9.png)
 
+---
 In het labo : 
 AGDLP : A → G → DL → P
+
+##ACCOUNT
 
 Accounts ; first lets start off by making sure the following acounts are in the OU's : 
 
@@ -90,6 +93,13 @@ Accounts ; first lets start off by making sure the following acounts are in the 
  
  Lowie De Neve - Directie , Maud De Smedt - boekhouden , Louise Jacobs - IT ,  Sile De Sutter - boekhouden , Emma De Ridder - IT department
 
+TOOLS --> Acount Directory Users and Computers --> OUallusers --> RMK --> New User --> .... 
+
+The Accounts will be created for all the above-mentioned users in their OU. 
+
 
  ![something](images/win_lab2_p10.png)
 
+ 
+
+---
