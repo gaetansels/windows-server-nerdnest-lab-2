@@ -73,45 +73,7 @@ Hou ook rekening met opmerkingen van volgende collega’s" :
 
 AGDLP : Users → GG_* → DL_* → Permissions → Folder
 
-## 📊 Overzicht Mappen & Rechten (AGDLP)
+![something](images/win_lab2_p9.png)
 
-| Map | Global Group (GG) | Domain Local Group (DL) | Permission | Waarom |
-|-----|------------------|------------------------|------------|--------|
-| 01_Directie | GG_Directie | DL_Directie_Modify | Modify | Eigen afdeling |
-|             | GG_IT       | DL_IT_Full           | Full Control | IT beheer |
-|             | GG_Lowie    | DL_All_Modify        | Modify | Lowie wil overal RW |
-|             | GG_Emma     | DL_All_Modify        | Modify | Emma wil overal RW |
+continue .. 
 
-| 02_HR | GG_HR | DL_HR_Modify | Modify | Eigen afdeling |
-|       | GG_IT | DL_IT_Full   | Full Control | IT beheer |
-|       | GG_Lowie | DL_All_Modify | Modify | Lowie RW |
-|       | GG_Emma  | DL_All_Modify | Modify | Emma RW |
-
-| 03_IT | GG_IT | DL_IT_Full | Full Control | IT eigenaar |
-|       | GG_Lowie | DL_All_Modify | Modify | Lowie RW |
-|       | GG_Emma  | DL_All_Modify | Modify | Emma RW |
-
-| 04_Boekhouding | GG_Boekhouding | DL_Boekhouding_Modify | Modify | Eigen afdeling |
-|                | GG_HR          | DL_Boekhouding_Read   | Read | HR moet inkijken |
-|                | GG_IT          | DL_IT_Full            | Full Control | IT beheer |
-|                | GG_Lowie       | DL_All_Modify         | Modify | Lowie RW |
-|                | GG_Emma        | DL_All_Modify         | Modify | Emma RW |
-
-| 05_MarketingSales | GG_Marketing | DL_Marketing_Modify | Modify | Eigen afdeling |
-|                   | GG_IT        | DL_IT_Full          | Full Control | IT beheer |
-|                   | GG_Lowie     | DL_All_Modify       | Modify | Lowie RW |
-|                   | GG_Emma      | DL_All_Modify       | Modify | Emma RW |
-
-| 06_Operations | GG_Operations | DL_Operations_Modify | Modify | Eigen afdeling |
-|               | GG_Boekhouding | DL_Operations_Read | Read | Facturatie (Sile) |
-|               | GG_IT          | DL_IT_Full         | Full Control | IT beheer |
-|               | GG_Lowie       | DL_All_Modify      | Modify | Lowie RW |
-|               | GG_Emma        | DL_All_Modify      | Modify | Emma RW |
-
-| 07_SoftwareDev | GG_SoftwareDev | DL_SoftwareDev_Modify | Modify | Eigen afdeling |
-|                | GG_IT          | DL_IT_Full            | Full Control | IT beheer |
-|                | GG_Lowie       | DL_All_Modify         | Modify | Lowie RW |
-|                | GG_Emma        | DL_All_Modify         | Modify | Emma RW |
-
-| 08_Users\Lowie | GG_Lowie | DL_Lowie_Private | Modify | Privé map |
-|                | GG_IT    | DL_IT_Full       | Full Control | IT beheer |
