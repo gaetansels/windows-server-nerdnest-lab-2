@@ -39,12 +39,30 @@ For best practices, an extra drive is used to separate shared data from the oper
 This is done in VMware by : 
 selecting your server --> RMK --> settings --> add --> select "hard disk" + next --> ... --> create a new disk --> here you give disk size etc and we will select "store virtual disk as a single file"
 
-Next, we will be initialising the  extra disk to make the drive recognizable and usable by Windows, as new or raw disks do not appear in File Explorer until this step is completed. 
+Next, we will be initialising the  extra disk to make the drive recognizable and usable by Windows. New disks appear as "unknown" and "offline", so they must be initialised before use.
 
 windows + X --> Disk Management 
 
 ![something](images/win_lab2_p5.png)
 
-Here you can see the 100GB which I created, next we will right click on the place that says "Disk 1 unknown 100,00 GB offline"
+Here you can see the 100GB which I created, next we will right click on the place that says "Disk 1 unknown 100,00 GB offline" and bring it online, then right-click again and select "Initialize Disk".
 After that, right-click on it again and click "Initialize Disk"
+After initializing, the space becomes "unallocated". This means the disk exists but cannot yet be used.
+
+To make it usable, right-click on the unallocated space, the 99.95GB. This creates a partition and assigns a drive letter.
+
+select "New Simple Volume"; in the wizard : Next ... -> 
+
+![something](images/win_lab2_p6.png)
+
+During this process, we format the disk using NTFS, which is required for storing files, sharing data, and managing permissions in a Windows environment.
+
+![something](images/win_lab2_p7.png)
+
+
+## FILE STRUCTURE 
+
+t
+
+
 
