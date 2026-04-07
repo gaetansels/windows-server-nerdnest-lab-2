@@ -76,3 +76,8 @@ AGDLP : Users → GG_* → DL_* → Permissions → Folder
 ![something](images/win_lab2_p9.png)
 
 In het labo : 
+AGDLP : A → G → DL → P
+
+Accounts ; first lets start off by making sure the following acounts are in the OU's : 
+
+- Lowie De Neve
