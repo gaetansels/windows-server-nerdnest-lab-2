@@ -92,14 +92,14 @@ In this step, we create the user accounts in Active Directory and place them in 
 **The OU is used for structure and policies, not for assigning permissions.**
 
 Summary of "A" make accounts in DC "Users and computers" :  
--OU=Directie --> Lowie 
--OU=Boekhouding --> Maud, Sile 
--OU=IT --> Louise, Emma
+- OU=Directie --> Lowie
+- OU=Boekhouding --> Maud, Sile
+- OU=IT --> Louise, Emma
 
-Accounts ; first lets start off by making sure the following acounts are in the OU's : 
+Accounts; first lets start off by making sure the following accounts are in the OU's : 
 
 
-TOOLS --> Acount Directory Users and Computers --> OUallusers --> RMK --> New User --> .... 
+TOOLS --> Account Directory Users and Computers --> OUallusers --> RMK --> New User --> .... 
 
 The Accounts will be created for all the above-mentioned users in their OU. 
 
