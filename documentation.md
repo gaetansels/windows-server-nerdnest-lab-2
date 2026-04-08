@@ -113,6 +113,22 @@ These will also be made in the DC server; the AD database is needed for parts A 
 
 Let's begin by mapping out the Global Security groups we are going to make : 
 
+Global groups based on company structure ( the OU's from the first lab) : 
+
+- GG_aankoop
+- GG_Administratie
+- GG_Boekhouding
+- GG_Directie
+- GG_IT
+- GG_Productie
+- GG_Verkoop
+
+
+Global group based on recruitment: 
+
+GG_Lowie --> wants access to everything + personal share space for documents 
+GG_Emma --> wants access to everything 
+
 
 Making global security groups : 
 
