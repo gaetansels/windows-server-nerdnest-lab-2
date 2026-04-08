@@ -18,7 +18,7 @@ This lab adds a new virtual machine to the existing `gsNerdNest.test` domain env
 ## Key Objectives
 
 ### 1. Storage Configuration
-* Initialization and formatting of a **500GB virtual disk**.
+* Initialization and formatting of a **100GB virtual disk**.
 * Implementation of the **NTFS** file system to support advanced security descriptors and quotas.
 
 ### 2. Departmental Folder Structure & AGDLP
