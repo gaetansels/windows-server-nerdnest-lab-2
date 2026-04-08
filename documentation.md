@@ -126,8 +126,8 @@ Global groups based on company structure ( the OU's from the first lab) :
 
 Global group based on recruitment: 
 
-GG_Lowie --> wants access to everything + personal share space for documents 
-GG_Emma --> wants access to everything 
+- GG_Lowie --> wants access to everything + personal share space for documents 
+- GG_Emma --> wants access to everything 
 
 
 Making global security groups : 
