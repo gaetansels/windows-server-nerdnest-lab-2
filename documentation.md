@@ -117,9 +117,9 @@ Global groups based on company structure ( the OU's from the first lab) :
 
 - GG_aankoop
 - GG_Administratie
-- GG_Boekhouding
+- GG_Boekhouding --> full access GG_aankoop , GG_Administratie, GG_Productie --> access to all financial docs 
 - GG_Directie
-- GG_IT
+- GG_IT --> full access to everything 
 - GG_Productie
 - GG_Verkoop
 
@@ -127,7 +127,7 @@ Global groups based on company structure ( the OU's from the first lab) :
 Global group based on recruitment: 
 
 - GG_Lowie --> wants access to everything + personal share space for documents 
-- GG_Emma --> wants access to everything 
+- GG_Emma --> wants access to everything --> why not just put into IT? 
 
 
 Making global security groups : 
