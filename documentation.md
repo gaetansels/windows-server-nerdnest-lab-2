@@ -111,7 +111,10 @@ The Accounts will be created for all the above-mentioned users in their OU.
 
 These will also be made in the DC server; the AD database is needed for parts A and G because the domain controller is responsible for identity and access management.    
 
-Let's begin by making global security groups : 
+Let's begin by mapping out the Global Security groups we are going to make : 
+
+
+Making global security groups : 
 
 - select the domain --> 
 
