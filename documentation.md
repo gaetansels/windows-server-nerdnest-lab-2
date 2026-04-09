@@ -107,7 +107,7 @@ The Accounts will be created for all the above-mentioned users in their OU.
  ![something](images/win_lab2_p10.png)
 
  
-## GLOBAL SECURITY GROUPS 
+## GLOBAL SECURITY GROUPS + DOMAIN LOCAL GROUPS 
 
 These will also be made in the DC server; the AD database is needed for parts A and G because the domain controller is responsible for identity and access management.    
 
@@ -117,18 +117,36 @@ Global groups based on company structure ( the OU's from the first lab) :
 
 - GG_aankoop
 - GG_Administratie
-- GG_Boekhouding --> full access GG_aankoop , GG_Administratie, GG_Productie --> access to all financial docs 
+- GG_Boekhouding 
 - GG_Directie
-- GG_IT --> full access to everything 
+- GG_IT 
 - GG_Productie
 - GG_Verkoop
+- GG_Lowie 
+- GG_Emma 
 
+Domain Local Groups based on permissions : 
 
-Global group based on recruitment: 
+DL_Directie_Modify
+DL_Boekhouding_Modify
+DL_IT_Full
+DL_Operations_Modify
+DL_Verkoop_Modify
+DL_Productie_Modify
 
-- GG_Lowie --> wants access to everything + personal share space for documents 
-- GG_Emma --> wants access to everything --> why not just put into IT? 
+DL_Boekhouding_Read
+DL_Operations_Read
 
+DL_All_Modify
+DL_Lowie_Private
+
+***What will be made for the lab:*
+
+- GG_Administratie
+- GG_Boekhouding 
+- GG_Directie
+- GG_IT
+- GG_Lowie 
 
 Making global security groups : 
 
