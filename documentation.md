@@ -142,11 +142,7 @@ DL_Lowie_Private
 
 ***What will be made for the lab:*
 
-- GG_Administratie
-- GG_Boekhouding 
-- GG_Directie
-- GG_IT
-- GG_Lowie 
+ ![something](images/winlab2groupsPDF.pdf)
 
 Making global security groups : 
 
