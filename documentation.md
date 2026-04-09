@@ -113,7 +113,7 @@ These will also be made in the DC server; the AD database is needed for parts A 
 
 Let's begin by mapping out the Global Security groups we are going to make : 
 
-Global groups based on company structure ( the OU's from the first lab) : 
+Global Groups (GG) based on company structure ( the OU's from the first lab) : 
 
 - GG_aankoop
 - GG_Administratie
@@ -142,7 +142,7 @@ DL_Lowie_Private
 
 ***What will be made for the lab:*
 
- ![something](images/win_lab2_p11.png)
+images/win_lab2_p12.pngg)
 
 The AGDLP model is used to manage access control.  
 Users are grouped into Global Groups based on their department, which are then linked to Domain Local Groups.  
@@ -150,9 +150,13 @@ Permissions are assigned to these Domain Local Groups on specific folders, enabl
 
 Making global security groups : 
 
-- select the domain --> 
+- select the domain -->  New --> Group 
 
 
  ![something](images/win_lab2_p12.png)
+
+ We are starting with the GG's ( GLOBAL) and the group type is SECURITY 
+
+![something](images/win_lab2_p13.png)
 
 ---
