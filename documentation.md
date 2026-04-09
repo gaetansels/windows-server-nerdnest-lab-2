@@ -142,13 +142,13 @@ DL_Lowie_Private
 
 ***What will be made for the lab:*
 
- ![something](images/winlab2groupsPDF.pdf)
+ ![something](images/win_lab2_p11.png)
 
 Making global security groups : 
 
 - select the domain --> 
 
 
- ![something](images/win_lab2_p11.png)
+ ![something](images/win_lab2_p12.png)
 
 ---
