@@ -144,6 +144,10 @@ DL_Lowie_Private
 
  ![something](images/win_lab2_p11.png)
 
+The AGDLP model is used to manage access control.  
+Users are grouped into Global Groups based on their department, which are then linked to Domain Local Groups.  
+Permissions are assigned to these Domain Local Groups on specific folders, enabling centralized management and adherence to the principle of least privilege.
+
 Making global security groups : 
 
 - select the domain --> 
