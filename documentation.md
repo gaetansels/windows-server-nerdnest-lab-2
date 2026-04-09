@@ -142,7 +142,7 @@ DL_Lowie_Private
 
 ***What will be made for the lab:*
 
-images/win_lab2_p12.pngg)
+ ![something](images/win_lab2_p11.pngg)
 
 The AGDLP model is used to manage access control.  
 Users are grouped into Global Groups based on their department, which are then linked to Domain Local Groups.  
