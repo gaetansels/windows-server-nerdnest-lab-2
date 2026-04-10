@@ -181,4 +181,8 @@ The rest will be done according to the needs of the departments.
 
 Here we have to enter the file server to manage the resources themselves. 
 
+As shown before we will make the file structure like this in the File server on the E disk 
+
 ---
+
+## Restrictions 
