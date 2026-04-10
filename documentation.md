@@ -172,7 +172,7 @@ Next we are going to add the Domain Local groups or DL's because they give us th
 
 Once again :  select the domain -->  New --> Group  
 
-BUT this time we select **Domain Local **
+BUT this time we select **Domain Local**
 
 ![something](images/win_lab2_p15.png)
 
