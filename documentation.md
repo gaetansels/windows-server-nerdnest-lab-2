@@ -165,10 +165,13 @@ BUT this time we select **Domain Local**
 
 Next we add the DL to the GG : 
 
-Select the GLOBAL GROUP you want to add to a DL
-
-For example, lets take the GG_boekhouding because is part of many DL's and cross department. 
+For example, lets take the GG_boekhouding because is part of 2 DL's and cross-department. 
 We will add it to : 
+
+- DL_Administratie_Modify
+- DL_Boekhouding_Modify
+
+Select the GLOBAL GROUP you want to add to a DL --> RMK --> add to a group --> "check name" 
 
 ![something](images/win_lab2_p16.png)
 
