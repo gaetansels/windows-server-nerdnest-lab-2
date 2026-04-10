@@ -163,6 +163,12 @@ BUT this time we select **Domain Local**
 
 ![something](images/win_lab2_p15.png)
 
+Next we add the DL to the GG : 
 
+Select the GLOBAL GROUP you want to add to a DL
+
+For example the GG_Administratie is part of many DL's 
+
+![something](images/win_lab2_p16.png)
 
 ---
