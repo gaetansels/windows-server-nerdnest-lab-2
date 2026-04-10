@@ -167,7 +167,8 @@ Next we add the DL to the GG :
 
 Select the GLOBAL GROUP you want to add to a DL
 
-For example the GG_Administratie is part of many DL's 
+For example, lets take the GG_boekhouding because is part of many DL's and cross department. 
+We will add it to : 
 
 ![something](images/win_lab2_p16.png)
 
