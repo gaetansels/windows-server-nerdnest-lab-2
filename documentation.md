@@ -206,7 +206,9 @@ if you choose the second option, you will throw away everything and if you make 
 
 ![something](images/win_lab2_p18.png)
 
+Check which users in the Principal aren't needed and remove them 
 
+Next, we go to edit, in the administration group, we have 3 DL's for permission : Read, Modify and Full. 
 
 ---
 
