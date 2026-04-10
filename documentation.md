@@ -181,8 +181,26 @@ The rest will be done according to the needs of the departments.
 
 Here we have to enter the file server to manage the resources themselves. 
 
-As shown before we will make the file structure like this in the File server on the E disk 
+As shown before, we will make the file structure like this in the File server on the E disk.
+
+Once the folders are created : 
+
+RMK on the folder --> properties  --> Select the "sharing tab" --> advanced sharing --> click the boc "share this folder"
+
+
+![something](images/win_lab2_p17.png)
+
+Here we will click on permissions and make sure everyone has full controle, this is because the NTFS option in the "Security tab " next to it has more options. 
+
+
+
+
+
 
 ---
+
+
+
+
 
 ## Restrictions 
