@@ -127,7 +127,7 @@ Global Groups (GG) based on company structure ( the OU's from the first lab) :
 
 Domain Local Groups based on permissions : 
 
-***What will be made for the lab:*
+***What will be made for the lab:**
 
  ![something](images/win_lab2_p11.png)
 
