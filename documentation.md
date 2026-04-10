@@ -163,7 +163,7 @@ BUT this time we select **Domain Local**
 
 ![something](images/win_lab2_p15.png)
 
-Next we add the DL to the GG : 
+We add the Global Group to the Domain Local Group : 
 
 For example, lets take the GG_boekhouding because is part of 2 DL's and cross-department. 
 We will add it to : 
@@ -174,5 +174,11 @@ We will add it to :
 Select the GLOBAL GROUP you want to add to a DL --> RMK --> add to a group --> "check name" 
 
 ![something](images/win_lab2_p16.png)
+
+The rest will be done according to the needs of the departments. 
+
+## Permissions 
+
+Here we have to enter the file server to manage the resources themselves. 
 
 ---
