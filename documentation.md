@@ -162,11 +162,20 @@ Making global security groups :
 After all the GG's are created, it is time to add the users to the Global Groups. 
 Because this was based on the OU's we can go to the OU_Administratie and add all the users to that group. 
 
-once there : CTR + A (select all) --> RMK --> Add to a group 
+once there : CTR + A (select all) --> RMK (on one of the selected people)--> Add to a group 
 
-in select group type you can type GG and it should give the options of you select **"Check Names"**
+in select group type you can type GG and it should give the options if you select **"Check Names"**
 
 ![something](images/win_lab2_p14.png)
+
+Next we are going to add the Domain Local groups or DL's because they give us the option to give more specific permissions, as shown in the schematic 
+
+Once again :  select the domain -->  New --> Group  
+
+BUT this time we select **Domain Local **
+
+![something](images/win_lab2_p15.png)
+
 
 
 ---
