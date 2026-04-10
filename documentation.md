@@ -210,6 +210,17 @@ Check which users in the Principal aren't needed and remove them
 
 Next, we go to edit, in the administration group, we have 3 DL's for permission : Read, Modify and Full. 
 
+In the "Security tab " : Edit -->  Add --> "DL" and "check name"
+
+![something](images/win_lab2_p19.png)
+
+For DL_Administratie_Read We will not select any other options : 
+
+![something](images/win_lab2_p20.png)
+
+If you select Modify then Write will automatically get selected 
+for full control it will select everything 
+
 ---
 
 
