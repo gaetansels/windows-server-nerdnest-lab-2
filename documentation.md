@@ -218,8 +218,14 @@ For DL_Administratie_Read We will not select any other options :
 
 ![something](images/win_lab2_p20.png)
 
-If you select Modify then Write will automatically get selected 
-for full control it will select everything 
+If you select Modify, then Write, and a few other options will automatically get selected 
+For full control, it will select everything 
+
+If you go to : Advanced --> Edit and select show advanced permissions in the following screen you will get a more detailed overview of the buncle of permissions in "Modify".
+
+![something](images/win_lab2_p21.png)
+
+
 
 ---
 
