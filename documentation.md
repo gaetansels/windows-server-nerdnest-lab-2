@@ -127,19 +127,6 @@ Global Groups (GG) based on company structure ( the OU's from the first lab) :
 
 Domain Local Groups based on permissions : 
 
-DL_Directie_Modify
-DL_Boekhouding_Modify
-DL_IT_Full
-DL_Operations_Modify
-DL_Verkoop_Modify
-DL_Productie_Modify
-
-DL_Boekhouding_Read
-DL_Operations_Read
-
-DL_All_Modify
-DL_Lowie_Private
-
 ***What will be made for the lab:*
 
  ![something](images/win_lab2_p11.png)
