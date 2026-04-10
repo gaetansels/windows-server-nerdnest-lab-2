@@ -190,10 +190,21 @@ RMK on the folder --> properties  --> Select the "sharing tab" --> advanced shar
 
 ![something](images/win_lab2_p17.png)
 
-Here we will click on permissions and make sure everyone has full controle, this is because the NTFS option in the "Security tab " next to it has more options. 
+Here we will click on permissions and make sure everyone has full control. This is because the NTFS option in the "Security tab " next to it has more options. 
+And ***the most restrictive option gets implemented*
 
+Normally, when you go to the security file, you will get blocked in edit form from making any changes. 
+This is because the permissions are inherited. 
 
+To change this : Advanced --> Disable inheritance 
 
+**ALERT!!** 
+
+MAKE SURE TO CHOOSE THE FIRST OPTION: "Convert inherited permissions into explicit permissions on this object"
+
+if you choose the second option, you will throw away everything and if you make a mistake, then the chance is there that you will be locked out of the folder. 
+
+![something](images/win_lab2_p18.png)
 
 
 
