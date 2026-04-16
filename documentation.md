@@ -228,7 +228,7 @@ If you go to : Advanced --> Edit and select show advanced permissions in the fol
 After the permissions are set, if we log in with someone from Administration, this is what we see, 
 Note only the Administration 
 
-![something](images/win_lab2_p21.png)
+![something](images/win_lab2_p22.png)
 
 
 ---
