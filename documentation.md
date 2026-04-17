@@ -235,6 +235,34 @@ Note only the Administration and Bookkeeping file have been created at this poin
 When I first tested the login, the file server shares were accessible manually (e.g. via \\fs1), 
 But the server did not automatically appear under the Network section in File Explorer.
 
+I have done the following troubleshooting in order to fix this ( with the result being the image above) : 
+
+
+1) Firewall settings: Verified that the Windows Firewall on the client was not blocking file sharing or network discovery.
+2) Permissions Verification: Checked Share permissions on the file server and checked NTFS permissions on the shared folders.
+3) Active Directory (DC) Check:  Verified user group memberships and permissions on the Domain Controller. + Confirmed that the user had the correct access rights.
+4) Network Discovery : Enabled: Network Discovery and checked File and Printer Sharing, verified both the client and file server for this.
+5) DNS Configuration: Configured DNS manually via " ncpa.cpl" and set the DNS server to the Domain Controller IP address. Then, verified name resolution "ping fs1".
+6) Required Services Configuration :
+
+Set the following services to:
+
+- Startup Type: Automatic
+- Status: Running
+
+Services: 
+
+- Function Discovery Resource Publication
+- Function Discovery Provider Host
+- SSDP Discovery
+- UPnP Device Host
+- Network Location Awareness
+
+**Important: These services must be configured on both the client and the file server.**
+
+
+After configuring all required services and enabling network discovery on both systems, a restart of the file server resolved the issue.
+
 
 
 ---
