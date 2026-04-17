@@ -230,7 +230,7 @@ Note only the Administration and Bookkeeping file have been created at this poin
 
 ![something](images/win_lab2_p22.png)
 
-** File Server & Client Network Discovery Issue: **
+**File Server & Client Network Discovery Issue:**
 
 When I first tested the login, the file server shares were accessible manually (e.g. via \\fs1), 
 But the server did not automatically appear under the Network section in File Explorer.
