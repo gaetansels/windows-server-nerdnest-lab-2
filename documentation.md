@@ -226,10 +226,11 @@ If you go to : Advanced --> Edit and select show advanced permissions in the fol
 ![something](images/win_lab2_p21.png)
 
 After the permissions are set, if we log in with someone from Administration, this is what we see, 
-Note only the Administration 
+Note only the Administration and Bookkeeping file have been created at this point. 
 
 ![something](images/win_lab2_p22.png)
 
+There was an issue
 
 ---
 
