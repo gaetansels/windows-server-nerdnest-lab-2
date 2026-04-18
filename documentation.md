@@ -274,3 +274,5 @@ The final part of the lab is to assign a storage limit on the disk and block vid
 In order to do this, we need to have the **File Server Resource Manager**; this role must be installed. 
 
 Go to manage --> Add Roles and Features 
+
+![something](images/win_lab2_p23.png)
