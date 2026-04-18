@@ -30,7 +30,7 @@ The file system is structured based on the company's organogram (HR, IT, Softwar
 ### 3. File Server Resource Manager (FSRM)
 To ensure system stability and policy compliance, the following restrictions were implemented:
 * **File Screening:** Users are blocked from saving video files to the server to preserve bandwidth and storage.
-* **Storage Quotas:** A hard limit of **100MB** per user to prevent storage exhaustion in this test environment.
+* **Storage Quotas:** A hard limit of **10MB** per user to prevent storage exhaustion in this test environment.
 
 ## Scenario Testing
 The configuration is validated by logging in as **Emma De Ridder** (Operations) to verify:
