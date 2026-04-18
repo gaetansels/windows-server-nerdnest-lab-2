@@ -276,3 +276,7 @@ In order to do this, we need to have the **File Server Resource Manager**; this 
 Go to manage --> Add Roles and Features 
 
 ![something](images/win_lab2_p23.png)
+
+Once installed : 
+
+![something](images/win_lab2_p24.png)
