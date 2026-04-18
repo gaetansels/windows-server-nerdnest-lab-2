@@ -268,7 +268,9 @@ After configuring all required services and enabling network discovery on both s
 ---
 
 
-
-
-
 ## Restrictions 
+
+The final part of the lab is to assign a storage limit on the disk and block video sharing. 
+In order to do this, we need to have the **File Server Resource Manager**; this role must be installed. 
+
+Go to manage --> Add Roles and Features 
