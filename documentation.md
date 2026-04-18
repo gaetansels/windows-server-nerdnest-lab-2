@@ -274,7 +274,8 @@ The final part of the lab is to assign a storage limit on the disk and block vid
 To do this, we need the **File Server Resource Manager**role installed. 
 This feature must be installed before continuing. 
 
-Note : you can also add a feature that it will email you if you have reached 85% of the given space on the disk.
+Note: You can also add a feature that will email you if you have reached 85% of the given space on the disk.
+But this is only accessible when an email member server has been added and configured. 
 
 Go to manage --> Add Roles and Features 
 
