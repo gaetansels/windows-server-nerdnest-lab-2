@@ -271,7 +271,10 @@ After configuring all required services and enabling network discovery on both s
 ## Restrictions 
 
 The final part of the lab is to assign a storage limit on the disk and block video sharing. 
-In order to do this, we need to have the **File Server Resource Manager**; this role must be installed. 
+To do this, we need the **File Server Resource Manager**role installed. 
+This feature must be installed before continuing. 
+
+Note : you can also add a feature that it will email you if you have reached 85% of the given space on the disk.
 
 Go to manage --> Add Roles and Features 
 
@@ -280,3 +283,11 @@ Go to manage --> Add Roles and Features
 Once installed : 
 
 ![something](images/win_lab2_p24.png)
+
+Putting a quota on disk space happens in 2 steps : 
+
+- Making a sjabloon
+- Making a quotum
+
+  
+
